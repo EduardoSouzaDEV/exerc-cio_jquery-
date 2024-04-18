@@ -1,0 +1,54 @@
+body{
+    background: rgb(110, 110, 253);
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+
+#lista{
+    width: 100%;
+    border-bottom: 2px solid ;
+    display: none;
+    
+}
+
+#lista ul{
+    padding-inline-start: inherit;
+}
+
+#lista li {
+    list-style-type: none;
+    border-bottom: solid rgba(0, 0, 0, 0.7);
+    margin-bottom: 7px;
+    
+}
+
+#btn{
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(130, 122, 240);
+    cursor: pointer;
+    box-shadow: 0 0 15px ;
+    transition: all 0.3s ease 0 s;
+}
+
+#btn:hover{
+    background-color: blueviolet;
+    box-shadow: 0 8px 15px blueviolet;
+    transform: translatey(-2px)
+}
+
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0, 0, 0,5);
+}
+
+.linhaMeio{
+    text-decoration: line-through;
+    color: red;
+}
